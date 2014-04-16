@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB0E1300000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C1AB100000000000000000 /* UIKit.framework */; };
+		2770B1460000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B01BDE40000000000000000 /* MapKit.framework */; };
+		3CA419DE0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35267C000000000000000000 /* Foundation.framework */; };
+		300EFC270000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A008C50000000000000000 /* CoreGraphics.framework */; };
+		2DAFE3420000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3140EFE00000000000000000 /* Info.plist */; };
+		2E34BDA00000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 674587800000000000000000 /* Entitlements.plist */; };
+		310E0CC40000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349F19620000000000000000 /* MainStoryboard.storyboard */; };
+		1F38CDAE0000000000000000 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C9DA4C0000000000000000 /* CustomCollectionViewCell.xib */; };
+		2B68252D0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 2EF931CB0000000000000000 /* AppDelegate.h */; };
+		3F9B74700000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC3E500000000000000000 /* AppDelegate.m */; };
+		33D38CF20000000000000000 /* CollectionViewPlusUiDynamicsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 376499900000000000000000 /* CollectionViewPlusUiDynamicsViewController.h */; };
+		201C55FF0000000000000000 /* CollectionViewPlusUiDynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD629D0000000000000000 /* CollectionViewPlusUiDynamicsViewController.m */; };
+		1E3A5E220000000000000000 /* CustomCollectionViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 21CB6AC00000000000000000 /* CustomCollectionViewCell.h */; };
+		6F21A9100000000000000000 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A83272F00000000000000000 /* CustomCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27BE7B9D0000000000000000 /* CollectionViewPlusUiDynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "CollectionViewPlusUiDynamics.app"; path = "CollectionViewPlusUiDynamics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C1AB100000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		2B01BDE40000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		35267C000000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		33A008C50000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3140EFE00000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		674587800000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		349F19620000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		22C9DA4C0000000000000000 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; name = "CustomCollectionViewCell.xib"; path = "CustomCollectionViewCell.xib"; sourceTree = "<group>"; };
+		2EF931CB0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		78AC3E500000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		376499900000000000000000 /* CollectionViewPlusUiDynamicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CollectionViewPlusUiDynamicsViewController.h"; path = "CollectionViewPlusUiDynamicsViewController.h"; sourceTree = "<group>"; };
+		23AD629D0000000000000000 /* CollectionViewPlusUiDynamicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CollectionViewPlusUiDynamicsViewController.m"; path = "CollectionViewPlusUiDynamicsViewController.m"; sourceTree = "<group>"; };
+		21CB6AC00000000000000000 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CustomCollectionViewCell.h"; path = "CustomCollectionViewCell.h"; sourceTree = "<group>"; };
+		A83272F00000000000000000 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CustomCollectionViewCell.m"; path = "CustomCollectionViewCell.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29D356960000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0E1300000000000000000 /* UIKit.framework in Frameworks */,
+				2770B1460000000000000000 /* MapKit.framework in Frameworks */,
+				3CA419DE0000000000000000 /* Foundation.framework in Frameworks */,
+				300EFC270000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ECC82400000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				34867C700000000000000000 /* CollectionViewPlusUiDynamics */,
+				1830FA9C0000000000000000 /* Frameworks */,
+				3F39A24A0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F39A24A0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BE7B9D0000000000000000 /* CollectionViewPlusUiDynamics.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1830FA9C0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96C1AB100000000000000000 /* UIKit.framework */,
+				2B01BDE40000000000000000 /* MapKit.framework */,
+				35267C000000000000000000 /* Foundation.framework */,
+				33A008C50000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		34867C700000000000000000 /* CollectionViewPlusUiDynamics */ = {
+			isa = PBXGroup;
+			children = (
+				2EF931CB0000000000000000 /* AppDelegate.h */,
+				376499900000000000000000 /* CollectionViewPlusUiDynamicsViewController.h */,
+				21CB6AC00000000000000000 /* CustomCollectionViewCell.h */,
+				22C9DA4C0000000000000000 /* CustomCollectionViewCell.xib */,
+				674587800000000000000000 /* Entitlements.plist */,
+				3140EFE00000000000000000 /* Info.plist */,
+				349F19620000000000000000 /* MainStoryboard.storyboard */,
+				5DBAF2400000000000000000 /* Supporting Files */,
+			);
+			name = "CollectionViewPlusUiDynamics";
+			sourceTree = "<group>";
+		};
+		5DBAF2400000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78AC3E500000000000000000 /* AppDelegate.m */,
+				23AD629D0000000000000000 /* CollectionViewPlusUiDynamicsViewController.m */,
+				A83272F00000000000000000 /* CustomCollectionViewCell.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33880CE40000000000000000 /* CollectionViewPlusUiDynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0B55C30000000000000000 /* Build configuration list for PBXNativeTarget "CollectionViewPlusUiDynamics" */;
+			buildPhases = (
+				146D0AE20000000000000000 /* Sources */,
+				29D356960000000000000000 /* Frameworks */,
+				3D57AA6D0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CollectionViewPlusUiDynamics";
+			productName = "CollectionViewPlusUiDynamics";
+			productReference = 27BE7B9D0000000000000000 /* CollectionViewPlusUiDynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28D4E70A0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EC7234B00000000000000000 /* Build configuration list for PBXProject "CollectionViewPlusUiDynamics" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9ECC82400000000000000000;
+			productRefGroup = 3F39A24A0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33880CE40000000000000000 /* CollectionViewPlusUiDynamics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D57AA6D0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAFE3420000000000000000 /* Info.plist in Resources */,
+				2E34BDA00000000000000000 /* Entitlements.plist in Resources */,
+				310E0CC40000000000000000 /* MainStoryboard.storyboard in Resources */,
+				1F38CDAE0000000000000000 /* CustomCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146D0AE20000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B68252D0000000000000000 /* AppDelegate.h in Sources */,
+				3F9B74700000000000000000 /* AppDelegate.m in Sources */,
+				33D38CF20000000000000000 /* CollectionViewPlusUiDynamicsViewController.h in Sources */,
+				201C55FF0000000000000000 /* CollectionViewPlusUiDynamicsViewController.m in Sources */,
+				1E3A5E220000000000000000 /* CustomCollectionViewCell.h in Sources */,
+				6F21A9100000000000000000 /* CustomCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2758B5650000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		413FD7100000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "CollectionViewPlusUiDynamics";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7234B00000000000000000 /* Build configuration list for PBXProject "CollectionViewPlusUiDynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2758B5650000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		1D0B55C30000000000000000 /* Build configuration list for PBXNativeTarget "CollectionViewPlusUiDynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413FD7100000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28D4E70A0000000000000000 /* Project object */;
+}

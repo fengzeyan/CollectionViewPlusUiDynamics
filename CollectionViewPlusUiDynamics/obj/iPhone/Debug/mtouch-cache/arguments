@@ -1,0 +1,27 @@
+# Version: 7.2.1.40 (86b1dbd)
+# [first argument, ignore] # /Users/rui/Projects/CollectionViewPlusUiDynamics/CollectionViewPlusUiDynamics/bin/iPhone/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/rui/Projects/CollectionViewPlusUiDynamics/CollectionViewPlusUiDynamics/obj/iPhone/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-dev \
+	/Users/rui/Projects/CollectionViewPlusUiDynamics/CollectionViewPlusUiDynamics/bin/iPhone/Debug/CollectionViewPlusUiDynamics.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-linksdkonly \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=armv7 \
+	/Users/rui/Projects/CollectionViewPlusUiDynamics/CollectionViewPlusUiDynamics/bin/iPhone/Debug/CollectionViewPlusUiDynamics.exe \
